@@ -1,0 +1,35 @@
+body{
+  background-color: #DDDDDD;
+}
+h1{
+  font-style: arial;
+  padding-left: 500px;
+  padding-top: 0px;
+  margin: 0;
+  color: #FF69B4;
+}
+
+#left-column{
+  background-color: #DDDDDD;
+  color: #DDDDDD;
+  font-size: 20px;
+  font-family: Arial;
+  line-height: 2;
+  margin-left:20%;
+  margin-right:20%;
+
+}
+
+ul{
+  padding: 6%;
+  padding-left: 3px;
+  position: sticky;
+  text-align:center;
+  background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}

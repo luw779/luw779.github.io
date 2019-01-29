@@ -1,0 +1,19 @@
+h1 {
+  color:rgb(255, 0, 0);
+}
+p {
+  text-align: center; 
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  border: 2px solid #0033d2;
+  border-bottom: color: red;
+}
+
+img {
+    border: 10px solid #ddd;
+    padding: 100px;
+    width: 400px;
+    height: 400px;
+}
+
