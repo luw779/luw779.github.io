@@ -1,0 +1,21 @@
+h1 {
+  color:rgb(255,165,0);
+}
+
+p {
+  text-align: left; 
+  font-size: 20px;
+  font-weight: lighter;
+ }
+
+ .pop {
+  color: rgb(205,92,92);
+}
+
+.Contemporary {
+  color: rgb(255,69,0);
+}
+
+.electronic{
+  color: rgb(0,100,0);
+}

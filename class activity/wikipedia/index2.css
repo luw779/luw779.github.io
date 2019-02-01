@@ -1,0 +1,39 @@
+
+h1{
+  font-family: Courier, Monaco, monospace;
+  color:rgb(205,92,92);
+  font-size: 80px;
+  text-align: right;
+}
+
+h2 {
+  font-family: Courier, Monaco, monospace;
+  color:rgb(255,182,193);
+  font-size: 40px;
+  text-align: right;
+}
+
+h3 {
+  font-family: Courier, Monaco, monospace;
+  color:rgb(219,112,147);
+  font-size: 40px;
+  text-align: right;
+}
+
+p {
+  font-family: Courier, Monaco, monospace;
+  text-align: left;
+  font-weight: bold; 
+  font-size: 20px;;
+  font-size: 30px;
+  
+}
+
+ul{
+  font-family: Courier, Monaco, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+
+}
