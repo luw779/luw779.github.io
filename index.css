@@ -1,22 +1,23 @@
 body{
-  background-color: #DDDDDD;
+  background-color: #FFF8DC;
 }
+
 h1{
   font-style: arial;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
-  color: #FF69B4;
+  color: #000000;
 }
 
 #left-column{
-  background-color: #DDDDDD;
+  background-color: #FFF8DC;
   color: #DDDDDD;
   font-size: 20px;
   font-family: Arial;
   line-height: 2;
-  margin-left:20%;
-  margin-right:20%;
+  margin-left: 40%;
+  margin-right: 40%;
 
 }
 
@@ -25,8 +26,8 @@ h2{
   margin-left:auto;
   margin-right:auto;
   text-align: center;
-  color: #FF69B4;
-  font-size: 20px
+  color: #000000;
+  font-size: 15px
 }
 
 ul{
@@ -34,7 +35,7 @@ ul{
   padding-left: 3px;
   position: sticky;
   text-align:center;
-  background-color: #3498DB;
+  background-color: #FFB6C1;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -44,5 +45,5 @@ ul{
 }
 
 li{
-  color: #3498DB
+  color: #FFB6C1
 }
