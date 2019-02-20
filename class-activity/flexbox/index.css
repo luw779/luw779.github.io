@@ -1,74 +1,53 @@
-.box1 {
+.box {
   position: absolute;
-  height: 200px;
-  width: 200px;
-  background-color: pink;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+  background-color: pink;
 
 }
 
 .box2 {
-  position: absolute;
   height: 350px;
   width: 350px;
   border: 40px solid bisque;
   transform: rotate(0deg);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
 }
 
 .box3 {
-  position: absolute;
   height: 420px;
   width: 420px;
   border: 60px solid orange;
   transform: rotate(0deg);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
 }
 
 .box4 {
-  position: absolute;
   height: 200px;
   width: 200px;
   border: 75px solid tomato ;
   transform: rotate(0deg);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
 }
 
 .box5 {
-  position: absolute;
   height: 100px;
   width: 100px;
   background-color:hsla(9, 100%, 64%, 0.5);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
 
 }
 
 .box6 {
-  position: absolute;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   border: 3px solid white;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;

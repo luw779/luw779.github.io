@@ -1,0 +1,223 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: white;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.table{
+  position: absolute;
+  border-bottom: 120px solid black;
+  border-left: 100px solid white;
+  border-right: 20px solid white;
+  top: 480px;
+  height: 0px;
+  right:0px;
+  width: 880px;  
+}
+
+.book-top{
+  position: absolute;
+	width: 130px;
+  height: 70px;
+  background: gray;
+  margin-top: 420px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.book-middle{
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  background: green;
+  margin-top: 470px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.book-bottom{
+  position: absolute;
+  width: 220px;
+  height: 20px;
+  background: pink;
+  margin-top: 500px;
+  margin-left: 50px;
+  z-index: 1;
+
+}
+
+.camera{
+  position: absolute;
+  top: 360px;
+  left: 50px;
+  width: 60px;
+  height: 60px;
+  background: black;
+  z-index: 1;
+
+}
+
+.orange1{
+  position: absolute;
+  left: 390px;
+  top: 500px;
+  width: 60px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.orange2{
+  position: absolute;
+  left: 450px;
+  top: 495px;
+  width: 60px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.orange3{
+  position: absolute;
+  left: 510px;
+  top: 500px;
+  width: 60px;
+  height: 50px;
+  background: orange;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.vase{
+  position: absolute;
+  left: 350px;
+  top: 390px;
+  width: 70px;
+  height: 130px;
+  background: #D3D3D3;
+  z-index: 1;
+}
+
+.flower1{
+  position: absolute;
+  left: 360px;
+  top: 370px;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.flower2{
+  position: absolute;
+  left: 380px;
+  top: 370px;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.flower3{
+  position: absolute;
+  left: 400px;
+  top: 370px;
+  width: 15px;
+  height: 15px;
+  background: red;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.stick1{
+  position: absolute;
+  left: 360px;
+  top: 390px;
+  width: 5px;
+  height: 130px;
+  background: brown;
+  z-index: 1;
+}
+.stick2{
+  position: absolute;
+  left: 380px;
+  top: 390px;
+  width: 5px;
+  height: 130px;
+  background: brown;
+  z-index: 1;
+}
+.stick3{
+  position: absolute;
+  left: 400px;
+  top: 390px;
+  width: 5px;
+  height: 130px;
+  background: brown;
+  z-index: 1;
+}
+
+.cat-head{
+  position: absolute;
+  left: 670px;
+  top: 430px;
+  width: 70px;
+  height: 60px;
+  background: gray;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.cat-body{
+  position: absolute;
+  left: 650px;
+  top: 470px;
+  width: 120px;
+  height: 150px;
+  background: gray;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.cat-ear1{
+  position: absolute;
+  left: 680px;
+  top: 390px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 50px solid red;
+  z-index: 1;
+}
+
+.cat-ear2{
+  position: absolute;
+  left: 710px;
+  top: 390px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 50px solid red;
+  z-index: 1;
+}

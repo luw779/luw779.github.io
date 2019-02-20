@@ -1,0 +1,49 @@
+body{
+	background-color: #525655
+
+}
+
+h1{
+	margin-left:25%;
+	margin-right:25%; 
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.instagram {
+  background: -webkit-linear-gradient(#AA3D9C, #B64B72, #EBA253);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.instagram:hover {
+  background: -webkit-radial-gradient(#525655, #696969);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+p{
+	margin-left:25%;
+	margin-right:25%; 
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.color-change {
+  background: #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.color-change:hover {
+  background: #8B0000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
