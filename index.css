@@ -1,20 +1,21 @@
 body{
-  background-color: #FFF8DC;
+  background-color: #EBA17C;
 }
 
 h1{
-  font-style: arial;
+  font-family: "Gill Sans", sans-serif;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
-  color: #000000;
+  color: #5B819E;
 }
 
 #left-column{
-  background-color: #FFF8DC;
+  background-color: #EBA17C;
   color: #DDDDDD;
   font-size: 20px;
-  font-family: Arial;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: lighter;
   line-height: 2;
   margin-left: 40%;
   margin-right: 40%;
@@ -22,11 +23,11 @@ h1{
 }
 
 h2{
-  font-style: arial;
+  font-family: "Gill Sans", sans-serif;
   margin-left:auto;
   margin-right:auto;
   text-align: center;
-  color: #000000;
+  color: #5B819E;
   font-size: 15px
 }
 
@@ -35,7 +36,7 @@ ul{
   padding-left: 3px;
   position: sticky;
   text-align:center;
-  background-color: #FFB6C1;
+  background-color: #D05C59;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -45,5 +46,23 @@ ul{
 }
 
 li{
-  color: #FFB6C1
+  color: #D05C59
+}
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F4A460;
+    background-color: transparent;
+    text-decoration: none;
 }
