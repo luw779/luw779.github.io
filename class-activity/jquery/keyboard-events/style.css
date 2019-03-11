@@ -1,0 +1,23 @@
+/* Your styles go here */
+body{
+    font-size: 30px;
+    text-align: center;
+}
+
+.text{
+    display: none;
+}
+
+.text.active{
+	display: block;
+}
+
+.button{
+    width: 20vw;
+    height: 8vw;
+    position: absolute;
+    top: 20vw;
+    left: 40vw;
+    font-size: 30px;
+    text-align: center;
+}

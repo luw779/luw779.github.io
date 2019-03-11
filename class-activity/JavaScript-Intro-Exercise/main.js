@@ -49,7 +49,9 @@ console.log()
 //not sure how to do #5
 
 //#6
-
+for (var i = 0; i < arraymyName.length; i++) {
+	console.log(arraymyName[i]);
+};
 
 //#7
 var date= new Date;
@@ -96,11 +98,33 @@ console.log(animals)
 var places= ["Myhome", "Japan", "Taiwan"];
 console.log(places)
 
-var pokemon= ["Pikachu", "Squirtle", "Raichu"];
+var pokemons= ["Pikachu", "Squirtle", "Raichu"];
 console.log(pokemon)
 
 //#10
-var array= [food, animals, places, pokemon];
-console.log(array)
+var arrayLink = [
+	['Raman','Sushi','KoreanBBQ'],
+	['Dog','Panda','Bird'],
+	['Myhome','Japan','Taiwan'],
+	['Pikachu','Squirtle','Raichu']
+];
+console.log(arrayLink);
 
-var nested=
+var arrayOfArr = [
+	food,
+	animals,
+	places,
+	pokemons
+];
+
+console.log("My favorite food are: ", arrayOfArr[0]);
+console.log("My favorite animals are: ", arrayOfArr[1]);
+console.log("My favorite places are: ", arrayOfArr[2]);
+console.log("My favorite Pokemons are: ", arrayOfArr[3]);
+
+//#12
+for (var i = 0; i < arrayOfArr.length; i++) {
+	for (var j=0; j < arrayOfArr[i].length; j++) {
+		console.log(arrayOfArr[i][j]);
+	}
+};

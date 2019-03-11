@@ -1,0 +1,15 @@
+/* Your styles go here */
+.text{
+    font-size: 50px;
+    text-align: center; 
+    font-family: "Lucida Console", Monaco, monospace;
+    height: 200px;
+    position: fixed;
+    background-color: #B0E0E6;   
+}
+
+.body{
+    width: 60vw;
+    height: 800vw;
+    position: absolute;
+}
