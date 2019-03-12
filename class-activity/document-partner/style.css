@@ -1,7 +1,7 @@
 h1{
   font-family: Courier, Monaco, monospace;
   color: #CF5A79;
-  font-size:40px;
+  font-size:30px;
   text-align: center;
   padding-top: 50px;
   padding-right: 380px;
@@ -15,6 +15,7 @@ h2{
   padding-top: 5px;
   padding-right: 370px;
 }
+
 
 img{
    padding-top: 50px;
@@ -39,3 +40,11 @@ a:hover {
     text-decoration: none;
     opacity: 0.8;
 }
+
+h3{
+  font-family: Courier, Monaco, monospace;
+  color: #008B8B;
+  font-size:35px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 3px;
