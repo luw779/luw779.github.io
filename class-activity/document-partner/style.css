@@ -1,5 +1,5 @@
 h1{
-  font-family: Courier, Monaco, monospace;
+  font-family: Helvetica Neue;
   color: #CF5A79;
   font-size:30px;
   text-align: center;
@@ -8,7 +8,7 @@ h1{
 }
 
 h2{
-  font-family: Courier, Monaco, monospace;
+  font-family: Helvetica Neue;
   color: #CF5A79;
   font-size:30px;
   text-align: center;
@@ -42,7 +42,7 @@ a:hover {
 }
 
 h3{
-  font-family: Courier, Monaco, monospace;
+  font-family: Helvetica Neue;
   color: #008B8B;
   font-size:35px;
   text-align: center;
