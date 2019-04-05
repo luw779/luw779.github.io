@@ -1,7 +1,6 @@
 var documentHeight = $(document).height();
 var windowHeight = $(window).height();
 
-$('body').append('.text');
 
 var $percentageIndicator = $('.text');
 

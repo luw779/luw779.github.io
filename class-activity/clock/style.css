@@ -1,0 +1,25 @@
+.clock1{
+  position: absolute;
+  border-radius: 60%;
+  height: 600px;
+  width: 600px;
+  border: 20px solid #E8A631;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.clock2{
+  position: absolute;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  border: 15px solid #A11E22;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

@@ -1,0 +1,19 @@
+.pj{
+	padding-left: 30px;
+}
+
+button{
+	width:120px;
+	height:40px;
+	border:2px #9999FF dashed;
+}
+
+h1{
+	font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat Brush', cursive;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+

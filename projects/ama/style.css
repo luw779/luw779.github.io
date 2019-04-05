@@ -1,0 +1,49 @@
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	padding-left: 50px;
+	padding-top: 20px;
+  font-size: 40px;
+}
+
+.first{
+	color:#CD5C5C;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-left: 50px;
+  font-size: 60px;
+
+}
+
+h2{
+  font-family: Impact, Charcoal, sans-serif;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+body {
+  background-image: url("room.svg");
+  background-position: bottom right;
+}

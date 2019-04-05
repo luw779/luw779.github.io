@@ -1,0 +1,17 @@
+body {
+	background-color:#FFE4B5;
+	padding: 20px 0 0 50px;
+}
+
+.container {
+	max-width: 960px;
+}
+
+button{
+	width:120px;
+	height:40px;
+	border:2px #9999FF dashed;
+	background-color: moccasin;
+}
+
+
