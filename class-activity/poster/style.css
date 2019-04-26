@@ -1,15 +1,25 @@
 h1{
 	color: #FFFFFF;
 	font-family: "Arial Black", Gadget, sans-serif;
+	    font-size: 180px;
 }
 
 h2{
 	color: #000000;
 	font-family: "Arial Black", Gadget, sans-serif;
-
+	    font-size: 150px;
 }
 
 p{
 	color: #000000;
 	font-family: "Arial Black", Gadget, sans-serif;
+	    font-size: 60px;
+}
+
+img {
+   max-width:100%;
+   height:auto;
+   max-height:100%;
+   margin-left: auto;
+   margin-right: auto;
 }

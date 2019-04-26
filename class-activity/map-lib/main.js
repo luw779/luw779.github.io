@@ -1,5 +1,4 @@
-$(finction()) {
-var endpoints = [
+var urls = [
 "https://kquea402.github.io/api.json",
 "https://glics998.github.io/api.json",
 "https://colindharrington.github.io/api.json",
@@ -20,7 +19,7 @@ var endpoints = [
 
 $('.button').click(function() {
 	console.log( $(this) );
-	var url = $(this).data('url');
+	var url = $(this).attr('data-url');
 	console.log(url);
 
 	$.get(url, function(data) {
@@ -46,14 +45,13 @@ $('.button').click(function() {
 	  console.warn(error.statusText);
 	});
 });
-		$('.randomizer').click(function() {
-		var randomEndpoint = endpoints[ Math.floor(Math.rondom())]
-		console.log(randomEndpoint);
-		}
 
-		$.get(randomEndpoint, function(data) {
-			
-		}
+
+$('.random-button').click(function() {
+  var randomUrl = urls[ Math.floor(Math.random()*items.length) ];
+  // $.get(randomUrl, function() { ... });
+});
+
 
 $(function() {
 	$.get('https://luw779.github.io/api.json', function(data) {
@@ -86,5 +84,4 @@ $(function() {
 	});
 
 
-});
 });
