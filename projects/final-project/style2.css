@@ -1,0 +1,40 @@
+body{
+	
+	background-color: #DE9C6C;
+}
+
+img{
+display: initial;
+position: center;
+padding-top: 13%;
+}
+
+.s1{
+  position: absolute;
+  height: 550px;
+  width: 550px;
+  border: 5px solid bisque;
+  transform: rotate(0deg);
+  top: 0;
+  right: 0;
+  bottom: 5vw;
+  left: 0;
+  margin: auto;
+}
+
+.time-holder{
+  font-family: 'Gugi', cursive;
+  font-size: 1vw;
+  padding-right: 3vw;
+  text-align: right;
+  margin-top: 43vh;
+  position: absolute;
+  float: right;
+  right: 10px;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  margin-top: 50vh;
+}

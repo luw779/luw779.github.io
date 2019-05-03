@@ -1,0 +1,31 @@
+body{
+	background-color: #D26E6E;
+}
+
+img{
+display: flex;
+position: center;
+padding-top: 7%;
+}
+
+.s1{
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  border: 5px solid bisque;
+  transform: rotate(0deg);
+  top: 0;
+  right: 0;
+  bottom: 5vw;
+  left: 0;
+  margin: auto;
+}
+
+.time-holder{
+  font-family: 'Gugi', cursive;
+  font-size: 1vw;
+  padding-right: 3vw;
+  text-align: right;
+  margin-top: 20vh;
+  
+}

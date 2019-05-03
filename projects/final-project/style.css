@@ -1,7 +1,123 @@
 body{
-	 background-image: url("world.png");
-	 background-repeat: no-repeat;
-	 background-attachment: fixed;
-     background-position: center; 
-     background-color: #FFEFD5;
+	
+     background-color: #FFD266;
+   }
+
+#title{
+	font-family: 'Gugi', cursive;
+	font-size: 2.5vw;
+	padding-right: 3vw;
+	text-align: right;
 }
+
+.all {
+	display: flex;
+	flex-direction: column;
+}
+
+.alltheboxes{
+	display: flex;
+	align-content: flex-end;
+  margin-top: -10vh;  
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+}
+
+#right {
+	display: flex;
+	flex-direction: column;
+}
+
+#empty{
+	height: 0.1vw;
+	width: 0.1vw;
+}
+
+#box1{
+      background: #DE9C6C;
+      height:16vw;
+      width: 16vw;
+      margin: 10px;
+      font-size: 40pt;
+      animation-name: example;
+  	animation-duration: 4s;
+  	animation-iteration-count: 2;
+  	animation-direction: alternate;
+}
+
+#box1:hover {
+  background-color: #F97500;
+  color: white;
+}
+
+#box2{
+
+      height:16vw;
+      width: 16vw;
+      background: #D26E6E;
+      margin: 10px;
+      font-size: 40pt;
+    animation-duration: 4s;
+  	animation-iteration-count: 2;
+  	animation-direction: alternate;
+}
+
+#box2:hover {
+  background-color: #F97500;
+  color: white;
+}
+
+#box3{
+
+      height:16vw;
+      width: 16vw;
+      background: #D26E6E;
+      margin: 10px;
+      font-size: 40pt;
+    animation-duration: 4s;
+  	animation-iteration-count: 2;
+  	animation-direction: alternate;
+}
+
+#box3:hover {
+  background-color: #F97500;
+  color: white;
+}
+
+#box4{
+
+      height:16vw;
+      width: 16vw;
+      background: #DE9C6C;
+      margin: 10px;
+      font-size: 40pt;
+    animation-duration: 4s;
+  	animation-iteration-count: 2;
+  	animation-direction: alternate;
+}
+
+#box4:hover {
+  background-color: #F97500;
+  color: white;
+}
+
+p{
+	font-family: 'Gugi', cursive;
+	text-align: center;
+}
+
+a:link {
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
