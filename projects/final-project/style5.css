@@ -1,5 +1,5 @@
 body{
-	background-color: #DE9C6C;
+	background-color: #f39c4e;
 }
 
 img{
@@ -55,14 +55,7 @@ animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-.time-holder{
-  font-family: 'Gugi', cursive;
-  font-size: 1vw;
-  padding-right: 3vw;
-  text-align: right;
-  margin-top: 93vh;
-}
-
+  
 @keyframes img{
 
   0% {

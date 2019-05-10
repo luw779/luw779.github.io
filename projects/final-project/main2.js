@@ -10,13 +10,13 @@ function updateTime(){
 
   //timeHolder.innerHTML =time;
   if(now.getSeconds()%2 !=1){
-    s1.style.borderColor = "#FDC84F";
+    s1.style.borderColor = "#f2a47e";
 
   }else{
-    s1.style.borderColor = "bisque";
+    s1.style.borderColor = "#dc5e5c";
   }
 
-  var bombay = calcTime('New York', '+20');
+  var bombay = calcTime('New York', '-4');
   $('#time').html(bombay);
 }
 

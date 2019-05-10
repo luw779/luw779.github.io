@@ -6,7 +6,7 @@ function updateTime(){
   var time = now.toTimeString();
 
   var s1 = document.querySelector(".s1")
-  var s2 = document.querySelector(".s2")
+  //var s2 = document.querySelector(".s2")
  
 
   //timeHolder.innerHTML =time;
@@ -17,14 +17,14 @@ function updateTime(){
     s1.style.borderColor = "bisque";
   }
 
-  if(now.getSeconds()%2 !=1){
-    s2.style.borderColor = "#FDC84F";
+  //if(now.getSeconds()%2 !=1){
+    //s2.style.borderColor = "#FDC84F";
 
-  }else{
-    s2.style.borderColor = "bisque";
-  }
+  //}else{
+   // s2.style.borderColor = "bisque";
+  //}
 
-  var bombay = calcTime('Buenos aires', '+22');
+  var bombay = calcTime('Buenos aires', '-3');
   $('#time').html(bombay);
 }
 

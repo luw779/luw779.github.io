@@ -1,31 +1,55 @@
-body{
-	background-color: #D26E6E;
+body {
+    background-color: #e7754e;
 }
 
-img{
-display: flex;
-position: center;
-padding-top: 7%;
+img {
+    display: flex;
+    position: center;
+    margin-top: -20%;
 }
 
-.s1{
-  position: absolute;
-  height: 450px;
-  width: 450px;
-  border: 5px solid bisque;
-  transform: rotate(0deg);
-  top: 0;
-  right: 0;
-  bottom: 5vw;
-  left: 0;
-  margin: auto;
+.s1 {
+    height: 550px;
+    width: 550px;
+    border: 4px solid white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    margin: auto;
 }
 
-.time-holder{
-  font-family: 'Gugi', cursive;
-  font-size: 1vw;
-  padding-right: 3vw;
-  text-align: right;
-  margin-top: 20vh;
-  
+.circle2 {
+    /*border-radius: 100%;*/
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    position: absolute;
+    top: 10%;
+    right: 40%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    animation: spinBox 3s infinite ease-in-out;
+}
+
+.box2 {
+    margin-top: 19vh;
+    font-size: 1vw;
+    padding-right: 3vw;
+    position: absolute;
+    float: right;
+    right: 10px;
+    text-align: center;
+}
+
+@keyframes spinBox {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
 }
